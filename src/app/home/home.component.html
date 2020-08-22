@@ -1,0 +1,7 @@
+<h1>Pauper's Reddit</h1>
+
+<div *ngFor="let post of subreddits">
+	<h2>{{ post.data.title }}</h2>
+	<img src="{{ post.data.thumbnail }}" alt="" />
+	<a href="{{ post.data.url }}">Click Me</a>
+</div>
